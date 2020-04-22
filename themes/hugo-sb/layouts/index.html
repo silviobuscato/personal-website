@@ -1,0 +1,59 @@
+{{define "title"}}
+{{ .Site.Title }} | Fotografo e Web Marketer
+{{end}}
+{{define "main"}}  
+{{ $isHome := true }}
+<div class="text-center home-img">
+        <img src="/img/montagna-3.jpg" class="img-fluid mx-auto bn" alt="">
+</div>
+
+<div class="container">
+    <div class="home-icons text-center">
+        <div class="row">
+            <div class="col"><h3>I AM</h3></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <i class="fas fa-camera"></i>
+                <h5>Photorapher</h5>
+            </div>
+            <div class="col">
+                <i class="fas fa-bullseye"></i>
+                <h5>Web Marketer</h5>
+            </div>
+        </div>
+        <hr style="background-color:rgb(172, 172, 172);width:70%" >
+
+        <div class="row">
+            <div class="col"><h3>I LIKE</h3></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <i class="fas fa-guitar"></i>
+                <h5>Rock</h5>
+            </div>
+            <div class="col">
+                <i class="fas fa-hammer"></i>
+                <h5>DIY</h5>
+            </div>
+        </div>
+    </div>
+       
+    {{ range ( where site.RegularPages "Section" "blog" | first 1 ) }}
+    <div class="last-post text-center">
+        <a href="{{.URL}}">
+            <span class="badge badge-warning">New Post</span>
+            <h2>{{.Title}}</h2>
+            <h4><i>{{.Date.Format "01-2006"}}</i></h4>
+            <p> {{.Summary}}</p>
+        </a>
+    </div>  
+    {{end}}
+    
+</div>
+
+
+
+
+</div>
+{{end}}

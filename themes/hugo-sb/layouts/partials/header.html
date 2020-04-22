@@ -1,0 +1,40 @@
+<nav class="fixed-top" id="navbar">
+  <div class="row">
+    <div class="col my-hamburger">  
+      <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+    </div>
+    <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+  </div>
+  <div class="col text-center"><a href="/"><img src="/img/firma-silvio-buscato.png" height="50px;" alt=""></a></div>
+  <div class="col text-right"></div>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+
+    var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+    </script>
+</nav>
+
+
