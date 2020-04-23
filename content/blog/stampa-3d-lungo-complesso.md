@@ -4,8 +4,7 @@ subtitle: "Per chi è indicata la stampa 3D?"
 author: "Silvio Buscato"
 categories: ["Stampa"]
 date: 2018-10-05T16:40:39+02:00
-draft: true
-
+draft: false
 ---
 
 Spesso vediamo stampe 3D di oggetti bellissimi, per i più esperti questo si traduce in tempo di stampa. Un oggetto grande come un bicchiere può richiedere diverse ore di realizzazione, soprattutto, la stampa può fallire e bisogna intervenire con manutenzioni e ricominciare. Questo si può ovviare con una stampante 3D più performante che costa più soldi. 

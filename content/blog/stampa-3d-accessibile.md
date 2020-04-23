@@ -4,7 +4,7 @@ subtitle: "Una stampante 3D è per tutti? Quali requisiti è meglio possedere?"
 author: "Silvio Buscato"
 categories: ["Stampa"]
 date: 2018-05-03T16:21:57+02:00
-draft: true
+draft: false
 ---
 
 ### Stampa 3D è accessibile a chiunque?

@@ -4,7 +4,7 @@ subtitle: "Prima esperienza con la stampante 3D: un salto nel buio"
 author: "Silvio Buscato"
 categories: ["Stampa"]
 date: 2018-05-03T16:14:51+02:00
-draft: true
+draft: false
 ---
 
 

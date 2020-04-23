@@ -1,7 +1,7 @@
 ---
 title: "Chi sono"
 date: 2020-04-20T14:06:53+02:00
-draft: true
+draft: false
 type: "about"
 ---
 # Chi sono
