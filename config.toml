@@ -1,4 +1,4 @@
-baseURL = "http://silviobuscato.it"
+baseURL = "/"
 languageCode = "it"
 title = "Silvio Buscato"
 theme = "hugo-sb"
