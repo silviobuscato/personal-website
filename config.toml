@@ -1,4 +1,4 @@
-baseURL = "https://goofy-easley-8800b9.netlify.app/"
+baseURL = "/"
 languageCode = "it"
 title = "Silvio Buscato"
 theme = "hugo-sb"
