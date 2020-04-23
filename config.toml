@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "it"
 title = "Silvio Buscato"
-theme = "hugo-theme-hello-friend"
+theme = "hugo-sb"
 summaryLength = "20"
 
 [menu]
