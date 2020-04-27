@@ -1,0 +1,71 @@
+a > h2:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.blog-container {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left:0;
+}
+
+.blog {
+    opacity: .2;
+    text-align: left;
+    color: black;
+    font-weight: 800;
+    font-size: 8em;
+    position: fixed;
+    left: -40px;
+    margin: 0;
+    text-align: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.post-list {
+    text-align: center
+}
+
+.post-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.post-list a:hover {
+    text-decoration: underline;
+}
+
+
+.post-list h2{
+    text-align: center;
+}
+
+.post-list h3 {
+    color: #afbac4;
+    padding-bottom: 30px;
+}
+
+
+.last-post {
+    background-color: #202124;
+    padding: 1%;
+}
+
+.last-post h2 {
+    margin: 0;
+}
+
+.last-post h3 {
+    margin: 0;
+}
+
+
+.single-container {
+    padding-top: 80px;
+}
+
+.single-container h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,49 @@
+
+.about{
+    padding-top: 70px;
+    text-align: left;
+} 
+
+.about a {
+    color: rgb(150, 150, 150);
+    text-decoration: underline;
+}
+
+.about strong {
+    color: white;
+}
+
+.about h2 {
+    border-left: lightseagreen solid;
+    font-size: 1.563em;
+    padding: 20px;
+    background-color: #202124;
+}
+
+.about h5 {
+    display: inline;
+    margin: 0;
+}
+
+.about p span {
+    background-color: teal;
+    color: white;
+}
+
+.about ul {
+    list-style: none; /* Remove default bullets */
+    color: white;
+  }
+  
+  .about ul li::before {
+    content: "\2022";  
+    color: teal; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+.about img {
+    filter: grayscale(100%);
+}

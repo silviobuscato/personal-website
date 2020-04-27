@@ -1,0 +1,93 @@
+@import 'nav';
+@import 'colors';
+@import 'home';
+@import 'blog';
+@import 'mediaq';
+@import 'about';
+@import 'footer';
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400|Poppins:400');
+body {
+    height: 100%;
+    margin: 0;
+    background-color: $background-color;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+}
+
+
+p {
+    margin-bottom: 1.15rem;
+    font-size: 1.25em;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 2.75rem 0 1.05rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+  }
+
+  
+  h1 {
+    margin-top: 0;
+    font-size: 3.052em;
+    color: white;
+  }
+  
+  h2 {
+      font-size: 2.441em;
+      color: white;
+    }
+  
+  h3 {
+      font-size: 1.953em;
+      color: white;
+    }
+  
+  h4 {
+      font-size: 1.563em;
+      color: white;
+      margin: 0;
+    }
+  
+  h5 {
+      font-size: 1.25em;
+      color: white;
+    }
+  
+  small, .text_small {font-size: 0.8em;}
+
+  
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+.author {
+    color: white;
+}
+
+.my-cat {
+    font-size: 1.953em;
+    color: wheat;
+    background-color:#202124; 
+    display: inline-block;
+    padding: 1%;
+}
+
+.my-cat a {
+    color: wheat;
+}
+
+.my-cat a:hover{
+    text-decoration: underline;
+}
