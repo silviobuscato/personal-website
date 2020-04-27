@@ -3,6 +3,7 @@ title: "Chi sono"
 date: 2020-04-20T14:06:53+02:00
 draft: false
 type: "about"
+description: "about - silvi buscato"
 ---
 # Chi sono
 

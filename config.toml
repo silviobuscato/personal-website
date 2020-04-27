@@ -3,6 +3,10 @@ languageCode = "it"
 title = "Silvio Buscato"
 theme = "hugo-sb"
 summaryLength = "20"
+description = "Sito e blog personale di Silvio Buscato"
+
+enableRobotsTXT = true
+
 
 [menu]
   [[menu.main]]
