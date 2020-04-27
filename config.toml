@@ -24,3 +24,9 @@ enableRobotsTXT = true
     weight = 2
 
 
+[params]
+	og_image = ""
+  og_image_url = ""
+  enableRSS = false
+
+

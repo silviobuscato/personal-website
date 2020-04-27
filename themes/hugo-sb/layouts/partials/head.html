@@ -1,13 +1,17 @@
 <meta charset="utf-8">
 <meta name="author" content="Silvio Buscato">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<link rel="dns-prefetch" href="{{ .Site.BaseURL }}">
+<link rel="preconnect" href="{{ .Site.BaseURL }}">
+<link rel="canonical" href="{{ .Site.BaseURL }}"/>
 
 {{ $styles := resources.Get "scss/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
 <script src="https://kit.fontawesome.com/58825dc357.js" crossorigin="anonymous"></script>
 
-{{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
 <title>{{ block "title" . }}{{ .Title}} | {{ .Site.Title }}{{ end }}</title>
@@ -25,3 +29,11 @@
 {{.Hugo.Generator}}
 
 
+
+{{ template "_internal/opengraph.html" . }}
+<meta property="og:site_name" content="{{ .Site.Title }}"/>
+<meta property="og:locale" content="it">
+{{ if .IsHome }}
+<meta property="og:image" content="/img/montagna-3.jpg" />
+{{ end }}
+     
