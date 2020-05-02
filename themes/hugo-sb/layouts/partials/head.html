@@ -19,14 +19,18 @@
 {{ if .Description }}
 <meta name="description" content="{{ .Description }}">
 {{ else if .IsHome }}
-<meta name="description" content="qui dovrei essere in home">
+<meta name="description" content="Blog personale di Silvio Buscato">
 {{ else if .IsPage }}
 <meta name="description" content="{{ .Summary | plainify }}">
 {{ else}}
-<meta name="description" content="altro">
+<meta name="description" content="Blog personale di Silvio Buscato">
 {{ end }}
 
 {{.Hugo.Generator}}
+
+
+
+
 
 
 
