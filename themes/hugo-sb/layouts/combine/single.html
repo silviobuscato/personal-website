@@ -1,0 +1,48 @@
+{{ define "main"}}
+<div class="container" align="center" style="padding-top:50px;">
+    <h1>Combinatore</h1>
+    <h2>Generatore keywords coda lunga</h2>
+    <div class="row">
+      <div class="col">
+        <h4>Primo blocco</h4>
+        <textarea name="name" rows="10" id="ta1"></textarea>
+      </div>
+      <div class="col">
+        <h4>Secondo blocco</h4>
+        <textarea name="name" rows="10" id="ta2"></textarea>
+      </div>
+      <div class="col">
+        <h4>Terzo blocco</h4>
+        <textarea name="name" rows="10" id="ta3"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-primary" type="button" onclick="myFunction()">Genera</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h3>Risultato</h3>
+        <textarea name="name" rows="10" cols="40" id="res"></textarea>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    function myFunction() {
+      var combinations = "";
+      document.getElementById("ta1").value.split("\n").forEach((item1) => {
+        document.getElementById("ta2").value.split("\n").forEach((item2) => {
+          document.getElementById("ta3").value.split("\n").forEach((item3) => {
+          combinations += (item1+" "+item2+" "+item3+ "\n");
+          });
+        });
+      });
+    document.getElementById("res").innerHTML = combinations;
+    }
+  </script>
+{{ end }}

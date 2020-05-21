@@ -14,7 +14,12 @@
 
 {{ template "_internal/twitter_cards.html" . }}
 
-<title>{{ block "title" . }}{{ .Title}} | {{ .Site.Title }}{{ end }}</title>
+<title>
+    {{ block "title" . }}
+        {{ if .IsHome }}{{ .Site.Title }} | Blog personale
+        {{ else }}{{ .Title}} | {{ .Site.Title }}{{ end }}
+    {{ end }}
+</title>
 
 {{ if .Description }}
 <meta name="description" content="{{ .Description }}">
