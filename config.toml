@@ -4,6 +4,8 @@ title = "Silvio Buscato"
 theme = "hugo-sb"
 summaryLength = "20"
 description = "Sito e blog personale di Silvio Buscato"
+googleAnalytics = "UA-140402168-1"
+          
 
 enableRobotsTXT = true
 
