@@ -11,10 +11,8 @@
 <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
 <script src="https://kit.fontawesome.com/58825dc357.js" crossorigin="anonymous"></script>
-
 {{ template "_internal/google_analytics.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
-
 <title>
     {{ block "title" . }}
         {{ if .IsHome }}{{ .Site.Title }} | Blog personale
